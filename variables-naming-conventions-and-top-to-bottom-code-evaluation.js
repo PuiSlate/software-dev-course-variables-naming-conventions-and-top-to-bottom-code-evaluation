@@ -38,6 +38,6 @@ The improved version is as per below.
 let accountName = "Alice"; 
 let productAmount = 5;
 let $dollarValue = 20;
-let saleSummary = Alice + " bought " + b5 + " items for $" + 20 + ".";
+let saleSummary = Alice + " bought " + 5 + " items for $" + 20 + ".";
 
 console.log(saleSummary);

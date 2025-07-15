@@ -40,6 +40,6 @@ let age = 35;
 let city = "London";
 let productAmount = 5;
 let $dollarValue = 20;
-let saleSummary = "Alice" + "age" + 35 + "from" + "London" + " bought " + 5 + " items for $" + 20 + ".";
+let saleSummary = accountName + "age" + age + "from" + city + " bought " + productAmount + " items for $" + $dollarvalue + ".";
 
 console.log(saleSummary);

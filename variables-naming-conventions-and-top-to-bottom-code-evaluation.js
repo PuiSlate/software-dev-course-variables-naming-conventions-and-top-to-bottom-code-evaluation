@@ -35,9 +35,11 @@ Issues: the Name of the variables a,b,c,d are not descriptive enough.
 They're too short and not offering any meaning. 
 The improved version is as per below.
 
-let accountName = "Alice"; 
+let accountName = "Alice";
+let age = 35;
+let city = "London";
 let productAmount = 5;
 let $dollarValue = 20;
-let saleSummary = Alice + " bought " + 5 + " items for $" + 20 + ".";
+let saleSummary = "Alice" + "age" + 35 + "from" + "London" + " bought " + 5 + " items for $" + 20 + ".";
 
 console.log(saleSummary);

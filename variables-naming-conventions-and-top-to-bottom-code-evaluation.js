@@ -30,3 +30,14 @@ let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
 
 console.log(d);
+
+Issues: the Name of the variables a,b,c,d are not descriptive enough.
+They're too short and not offering any meaning. 
+The improved version is as per below.
+
+let accountName = "Alice"; 
+let productAmount = 5;
+let $dollarValue = 20;
+let saleSummary = Alice + " bought " + b5 + " items for $" + 20 + ".";
+
+console.log(saleSummary);
